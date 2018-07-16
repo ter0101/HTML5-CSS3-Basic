@@ -1,0 +1,114 @@
+/*Big tablet */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+/*small tablete to big tablets */
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0px;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+  .works-step div {
+    width: 45px;
+    height: 45px;
+    font-size: 140%;
+  }
+  .works-step p {
+    font-size: 90%;
+  }
+  .icon-small {
+    margin-right: 5px;
+  }
+  .clearPara {
+    margin-top: 4px;
+  }
+}
+/*small phone to tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .steps-box {
+    text-align: center;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav{
+    display: none;
+  }
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border-bottom: none;
+    padding: 10px 0;
+    font-size:110%;
+  }
+}
+/*small phone */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  .plan-box {
+    margin-bottom: 30px;
+  }
+  input,
+  select,
+  textarea {
+    margin-bottom: 14px;
+  }
+  input[type="submit"] {
+    margin-left: 65px;
+  }
+  .logo {
+    height: 80px;
+  }
+  .hero-text-box,
+  .row {
+    padding: 0 4%;
+  }
+  .steps-box {
+    text-align: center;
+  }
+}
